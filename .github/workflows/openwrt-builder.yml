@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt firmware Qihoo 360T7 sbwml mosdns
+name: Qihoo 360T7 sbwml mosdns
 
 on:
   repository_dispatch:
