@@ -73,7 +73,7 @@ jobs:
     - name: Load custom feeds
       run: |
         rm -rf openwrt/feeds.conf.default
-        git clone https://github.com/NEARWN/feeds.conf.default.git openwrt/feeds.conf.default
+        git clone https://github.com/NEARWN/feeds.conf.default.git openwrt/
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
